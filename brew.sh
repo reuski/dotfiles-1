@@ -44,7 +44,11 @@ brew install narwhal
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+brew install homebrew/php/php55 --with-gmp --with-fpm --with-mysql
+
+# Webdev
+# brew install nginx
+# brew install mariadb
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install bfg
