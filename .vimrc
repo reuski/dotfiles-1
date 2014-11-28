@@ -3,6 +3,7 @@ set background=dark
 set t_Co=256
 colorscheme solarized
 let g:solarized_termcolors=256
+let g:solarized_termtrans=1
 
 " Make Vim more useful
 set nocompatible
